@@ -1,4 +1,6 @@
 const prompt = require("prompt-sync");
+let validator = require("validator")
+
 const { imoveis } = require("./imoveis");
 
 function listarImovel() {

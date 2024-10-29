@@ -1,4 +1,5 @@
 const prompt = require("prompt-sync")
+let validator = require("validator")
 const { imoveis } = require("./imoveis")
 
 // function criarImovel(id, enderecoImovel, proprietario, inquilino, valorAluguel, dataInicioContrato, dataFimContrato, status)
@@ -13,10 +14,11 @@ function editarImovel(id, novoEnderecoImovel, novoProprietario,
                 editar.inquilino = novoInquilino
                 editar.valorAluguel = novoValorAluguel
                 editar.dataInicioContrato = novoDataInicioContrato
-                editar.novoDataFimContrato = novoDataFimContrato
+                editar.dataFimContrato = novoDataFimContrato
                 editar.status = novoStatus
 
                 console.log("Funcionário editado com sucesso!")
+            
             } else {
                 console.log("ID inválido!")
             }
