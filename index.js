@@ -83,7 +83,7 @@ do {
 
 
 //function criarImovel(id, enderecoImovel, proprietario, inquilino, valorAluguel, dataInicioContrato, dataFimContrato, status)
-let casa1 = criarImovel("0", "Rua 01, bairro abc", "David", "João", "1250", "24/10/2024", "05/10/2025", "1")
+//let casa1 = criarImovel("0", "Rua 01, bairro abc", "David", "João", "1250", "24/10/2024", "05/10/2025", "1")
 //let casa2 = criarImovel("1", "Rua 02, bairro def", "Valtemir", "Lucas", "1550", "11/01/2024", "12/01/2025", "1")
 
 //listarImovel() //Deve mostrar id 0 e 1, com ambos em status 1
